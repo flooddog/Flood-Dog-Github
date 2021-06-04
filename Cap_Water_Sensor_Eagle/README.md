@@ -1,0 +1,1 @@
+The Capacitance Sensor model is a custom circuit board.
