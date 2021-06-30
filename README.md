@@ -1,4 +1,6 @@
-101 Flood Dogs is a pilot project to deploy 101 cellularly connected IoT sensors units across the Toronto Islands. The first deloyment of 42 dogs is set for June 2021.
+101 Flood Dogs is a pilot project to deploy 101 cellularly connected IoT sensors units across the Toronto Islands.
+
+The first deloyment of 42 dogs is set for July 2021.
 
 The Toronto Islands is a unique ecosystem, and through its diversity represents so many of the varied environments found along the Great Lakes. The location features a variety of spaces including parkland, schools, residential, and light industrial. The Islands offer wetland habitats for many species of birds, as well as other wildlife. Flooding in 2017 and then again in 2019 threatened this delicate biome and effectively closed a valuable city resource.
 
