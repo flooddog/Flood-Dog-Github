@@ -1,1 +1,0 @@
-This is the main model file for creating a Flood Dog unit with a PIR sensor capsule.
