@@ -1640,6 +1640,15 @@ design rules under a new name.</description>
 <wire x1="4.4196" y1="37.338" x2="-3.81" y2="37.338" width="0.1524" layer="1"/>
 <wire x1="6.4008" y1="39.3192" x2="4.4196" y2="37.338" width="0.1524" layer="1"/>
 <wire x1="-14.9352" y1="39.4716" x2="-15.008" y2="39.6146" width="0.1524" layer="1"/>
+<polygon width="0.1524" layer="16">
+<vertex x="-23.7998" y="60.452"/>
+<vertex x="-23.7998" y="33.0962"/>
+<vertex x="-22.2758" y="33.0962"/>
+<vertex x="38.354" y="33.0962"/>
+<vertex x="38.354" y="60.198"/>
+<vertex x="38.354" y="60.6044"/>
+<vertex x="-23.7236" y="60.6044"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="R3" pad="1"/>
