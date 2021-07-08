@@ -6621,10 +6621,10 @@ JST PH 2-pin thru-home side entry</description>
 <sheets>
 <sheet>
 <plain>
-<wire x1="0" y1="0" x2="119.38" y2="0" width="0.1524" layer="97"/>
-<wire x1="119.38" y1="0" x2="119.38" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="119.38" y1="106.68" x2="0" y2="106.68" width="0.1524" layer="97"/>
-<wire x1="0" y1="0" x2="0" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="-15.24" x2="162.56" y2="-15.24" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="-15.24" x2="162.56" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="106.68" x2="-7.62" y2="106.68" width="0.1524" layer="97"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="106.68" width="0.1524" layer="97"/>
 <text x="55.88" y="101.6" size="1.524" layer="97">Flood Dog Capacitance Sensor</text>
 </plain>
 <instances>
