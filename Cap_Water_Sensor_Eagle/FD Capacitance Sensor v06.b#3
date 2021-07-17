@@ -34,7 +34,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -172,10 +172,10 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bWFyYmxlaGVhZA" projecturn="a.YnVzaW5lc3M6bWFyYmxlaGVhZCMyMDIxMDMwOTM5MTIyOTY3Ng" f3durn="urn:adsk.wipprod:dm.lineage:rpz74rZFTTaJ2UGEJ2MuYw" pcbguid="e4977009-8dcd-49de-9922-1dd44602acbb" lastpulledtime="" lastsyncedchangeguid="36c5f193-12f4-3997-1781-0ebcfa3454e3"/>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="38.1054" y2="0.1524" width="0" layer="20"/>
+<wire x1="38.1054" y1="0.1524" x2="38.2578" y2="27.5338" width="0" layer="20"/>
+<wire x1="38.2578" y1="27.5338" x2="0.1524" y2="27.3814" width="0" layer="20"/>
+<wire x1="0.1524" y1="27.3814" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1677,8 +1677,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="1uF" x="17.145" y="12.8016" smashed="yes">
-<attribute name="NAME" x="14.9352" y="11.7094" size="0.762" layer="25" rot="R90"/>
-<attribute name="VALUE" x="15.875" y="10.2616" size="1.27" layer="27"/>
+<attribute name="NAME" x="19.2278" y="14.6812" size="0.762" layer="25" rot="R180"/>
 </element>
 <element name="C2" library="Custom Components" package="0805@1" value="1uF" x="23.5712" y="22.3774" smashed="yes">
 <attribute name="HOUSEPART" value="yes" x="56.5912" y="-8.1026" size="1.778" layer="27" display="off"/>
@@ -1686,7 +1685,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.0632" y="23.2791" size="0.8128" layer="25"/>
 <attribute name="POPULATE" value="1" x="56.5912" y="-8.1026" size="1.778" layer="27" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-CAP-0805-1uF" x="56.5912" y="-8.1026" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="22.0472" y="21.9964" size="0.8128" layer="27"/>
 </element>
 <element name="C6" library="Custom Components" package="0805@1" value="10nF" x="6.223" y="15.875" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="399-C0805X103K1RAC3316CT-ND" x="-22.987" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1695,7 +1693,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.9596" y="17.4879" size="0.762" layer="25" rot="R180"/>
 <attribute name="POPULATE" value="1" x="-22.987" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://www.digikey.com/en/products/detail/kemet/C0805X103K1RAC3316/10315780" x="-22.987" y="46.355" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.747" y="17.526" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="C7" library="Custom Components" package="0805@1" value="0.1uF" x="6.223" y="11.8364" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="YES" x="-19.177" y="42.3164" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1703,20 +1700,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="6.5786" y="10.9093" size="0.762" layer="25" rot="R180"/>
 <attribute name="POPULATE" value="1" x="-19.177" y="42.3164" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-CAP-0805-0.1uF" x="-19.177" y="42.3164" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.747" y="12.2174" size="0.8128" layer="27" rot="R180"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="10nf" x="24.892" y="16.002" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.4762" y="14.7574" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="26.162" y="18.542" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="470pf" x="8.4074" y="20.2438" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.9916" y="23.2156" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="8.4074" y="17.7038" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D2" library="Custom Components" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V" x="16.9672" y="10.7442" smashed="yes" rot="R180">
 <attribute name="MPN" value="BAS16HT1G" x="-13.5128" y="51.3842" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="16.9672" y="9.9314" size="0.762" layer="25" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="16.9672" y="11.5062" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="NAME" x="17.0688" y="9.8806" size="0.762" layer="25" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="DUMMY" package3d_urn="urn:adsk.eagle:package:37104/1" value="FRAME-LETTERNO_PACKAGE" x="46.99" y="46.99" smashed="yes">
 <attribute name="DESIGNER" value="Nobody" x="82.55" y="6.35" size="1.778" layer="27" display="off"/>
@@ -1728,45 +1721,40 @@ design rules under a new name.</description>
 </element>
 <element name="OUTPUT" library="Custom Components" package="JST_BM06B-SRSS-TB(LF)(SN)" value="BM06B-SRSS-TBT(LF)(SN)" x="27.7114" y="4.6228" smashed="yes" rot="R180">
 <attribute name="MPN" value="BM06B-SRSS-TBT(LF)(SN)" x="-5.3086" y="21.1328" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.378" y="3.0724" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="31.378" y="2.6914" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULATE" value="1" x="-5.3086" y="21.1328" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="20.5274" y="2.1548" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R5" library="Custom Components" package="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="10k" x="11.8618" y="17.2212" smashed="yes" rot="R180">
 <attribute name="MPN" value="MF-RES-0805-10K" x="-3.3782" y="54.0512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.192" y="19.0246" size="0.762" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="11.9634" y="18.8976" size="0.762" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POPULATE" value="1" x="-3.3782" y="54.0512" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-RES-0805-10K" x="-3.3782" y="54.0512" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="11.8618" y="18.1102" size="0.8128" layer="27" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="R6" library="Custom Components" package="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="1k" x="6.096" y="20.2946" smashed="yes" rot="R270">
 <attribute name="HOUSEPART" value="YES" x="-30.734" y="1.2446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="MF-RES-0805-1K" x="-30.734" y="1.2446" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.223" y="21.971" size="0.762" layer="25" font="vector" align="bottom-center"/>
+<attribute name="NAME" x="6.1722" y="22.0472" size="0.762" layer="25" font="vector" align="bottom-center"/>
 <attribute name="POPULATE" value="1" x="-30.734" y="1.2446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-RES-0805-1k" x="-30.734" y="1.2446" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="5.207" y="20.2946" size="0.8128" layer="27" font="vector" rot="R270" align="top-center"/>
 </element>
 <element name="R7" library="Custom Components" package="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="100k" x="26.8478" y="19.7104" smashed="yes" rot="R90">
 <attribute name="MPN" value="MF-RES-0805-100K" x="57.3278" y="56.5404" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="28.7528" y="21.1836" size="0.762" layer="25" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="POPULATE" value="1" x="57.3278" y="56.5404" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-RES-0805-100K" x="57.3278" y="56.5404" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="27.7368" y="19.7104" size="0.8128" layer="27" font="vector" rot="R90" align="top-center"/>
 </element>
 <element name="R8" library="Custom Components" package="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="330" x="7.7978" y="13.7668" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="YES" x="-15.0622" y="50.5968" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MF-RES-0805-330" x="-15.0622" y="50.5968" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="5.5372" y="14.1478" size="0.762" layer="25" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="POPULATE" value="1" x="-15.0622" y="50.5968" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.7978" y="14.6558" size="0.8128" layer="27" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="R9" library="Custom Components" package="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="1M" x="20.8026" y="12.8778" smashed="yes" rot="R180">
 <attribute name="HOUSEPART" value="YES" x="-5.8674" y="49.7078" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MF-RES-0805-1K" x="-5.8674" y="49.7078" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POPULATE" value="1" x="-5.8674" y="49.7078" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="URL" value="https://factory.macrofab.com/part/MF-RES-0805-1k" x="-5.8674" y="49.7078" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="20.8026" y="13.7668" size="0.8128" layer="27" font="vector" rot="R180" align="top-center"/>
+<attribute name="VALUE" x="20.701" y="13.9446" size="0.8128" layer="27" font="vector" rot="R180" align="top-center"/>
 </element>
 <element name="U1" library="Custom Components" package="SOT_101PT1_ONS" value="NTS4101PT1" x="23.5966" y="19.685" smashed="yes" rot="R90">
 <attribute name="DATASHEET" value="https://datasheet.octopart.com/NTS4101PT1-ON-Semiconductor-datasheet-139013286.pdf" x="64.2366" y="42.545" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1783,7 +1771,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.3188" y="20.7328" size="0.762" layer="25"/>
 <attribute name="PACKAGE" value="SOIC-8 Texas Instruments" x="36.83" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TLC555CD/?ref=eda" x="36.83" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-7.37" y="14.878" size="1.27" layer="27" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -1801,21 +1788,19 @@ design rules under a new name.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="J1" pad="1"/>
 <polygon width="0.1524" layer="1">
-<vertex x="-3.81" y="-5.08"/>
-<vertex x="-3.81" y="106.68"/>
-<vertex x="168.91" y="106.68"/>
-<vertex x="168.91" y="104.14"/>
-<vertex x="168.91" y="-6.35"/>
-<vertex x="-3.81" y="-6.35"/>
+<vertex x="-2.4892" y="-3.0226"/>
+<vertex x="-2.4892" y="29.6672"/>
+<vertex x="40.8178" y="29.6672"/>
+<vertex x="40.8178" y="-2.9718"/>
+<vertex x="-2.4384" y="-2.9718"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-2.0066" y="-4.6228"/>
-<vertex x="-2.0066" y="103.4288"/>
-<vertex x="164.1348" y="103.4288"/>
-<vertex x="164.1348" y="-4.7752"/>
-<vertex x="-2.0066" y="-4.7752"/>
+<vertex x="-1.4224" y="-2.1336"/>
+<vertex x="-1.4224" y="29.0322"/>
+<vertex x="40.0304" y="29.0322"/>
+<vertex x="40.0304" y="-2.1336"/>
 </polygon>
-<via x="10.9474" y="11.1252" extent="1-16" drill="0.35"/>
+<via x="11.5062" y="11.5824" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="3"/>
@@ -2022,13 +2007,10 @@ design rules under a new name.</description>
 <via x="24.9428" y="12.0142" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$10">
-<via x="4.4704" y="18.161" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$11">
-<via x="14.6558" y="11.176" extent="1-16" drill="0.35"/>
+<via x="4.5974" y="17.399" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$12">
-<via x="9.0424" y="17.3482" extent="1-16" drill="0.35"/>
+<via x="8.763" y="17.4244" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$13">
 <via x="26.7208" y="22.3774" extent="1-16" drill="0.35"/>
