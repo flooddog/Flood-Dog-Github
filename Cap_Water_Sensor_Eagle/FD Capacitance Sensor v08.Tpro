@@ -1,0 +1,25 @@
+EAGLE AutoRouter Statistics:
+
+Job           : /Users/philipchatterton/Flood Dog/Flood Dog Github/Cap_Water_Sensor_Eagle/FD Capacitance Sensor v08.brd
+
+Start at      : 07:25:36 (2021-08-05)
+End at        : 19:00:00 (1969-12-31)
+Elapsed time  : 00:00:00
+
+Signals       :    15   RoutingGrid: 6 mil  Layers: 2
+Connections   :    34   predefined:  30 ( 11 Vias )
+
+Router memory :   293000
+
+Passname          : TopRouter
+
+Time per pass     :  00:00:00
+Number of Ripups  :         0
+max. Level        :         0
+max. Total        :         0
+
+Routed            :         0
+Vias              :         0
+Resolution        :    88.2 %
+
+Final             : 88.2% finished
