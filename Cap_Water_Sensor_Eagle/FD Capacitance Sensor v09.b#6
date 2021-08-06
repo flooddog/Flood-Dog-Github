@@ -173,18 +173,14 @@
 <fusionsync huburn="a.YnVzaW5lc3M6bWFyYmxlaGVhZA" projecturn="a.YnVzaW5lc3M6bWFyYmxlaGVhZCMyMDIxMDMwOTM5MTIyOTY3Ng" f3durn="urn:adsk.wipprod:dm.lineage:qFEIbdKxQ-yU05Vq1W73WQ" pcbguid="dd2e12f9-efe1-4dc6-b461-20f4614f357a" lastpulledtime="" lastsyncedchangeguid="6125ea8d-14c7-cf26-0f22-2f29fb5ef346"/>
 <plain>
 <wire x1="0" y1="0" x2="38.58" y2="0" width="0" layer="20"/>
-<wire x1="38.58" y1="0" x2="38.58" y2="28" width="0" layer="20"/>
-<wire x1="38.58" y1="28" x2="0" y2="28" width="0" layer="20"/>
-<wire x1="0" y1="28" x2="0" y2="0" width="0" layer="20"/>
-<hole x="33.58" y="3" drill="4"/>
-<hole x="5" y="3" drill="4"/>
+<wire x1="38.58" y1="0" x2="38.58" y2="34" width="0" layer="20"/>
+<wire x1="38.58" y1="34" x2="0" y2="34" width="0" layer="20"/>
+<wire x1="0" y1="34" x2="0" y2="0" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="38.58" y2="0" x3="19.29" y3="-6" textsize="1.778" layer="20" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="0" y2="28" x3="-5" y3="14" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="0" y1="0" x2="0" y2="34" x3="-11" y3="17" textsize="1.778" layer="20" dtype="vertical"/>
 <dimension x1="5" y1="3" x2="33.58" y2="4" x3="19.29" y3="-3" textsize="1.778" layer="20" dtype="horizontal"/>
-<hole x="5" y="25" drill="4"/>
-<hole x="33.58" y="25" drill="4"/>
-<dimension x1="5" y1="3" x2="5" y2="25" x3="-9" y3="14" textsize="1.778" layer="20" dtype="vertical"/>
-<dimension x1="33.58" y1="3" x2="37" y2="25" x3="44" y3="14" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="5" y1="7" x2="5" y2="29" x3="-6" y3="18" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="33.58" y1="7" x2="33" y2="29" x3="46" y3="18" textsize="1.778" layer="20" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1454,6 +1450,48 @@ CONN_05
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Hardware" urn="urn:adsk.eagle:library:519">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="STAND-OFF" urn="urn:adsk.eagle:footprint:38612/1" library_version="1">
+<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
+&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
+&lt;h4&gt;Devices Using&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
+<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
+<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
+<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
+<hole x="0" y="0" drill="3.302"/>
+<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:38630/1" type="box" library_version="1">
+<description>Standoff (#4 Screw)
+This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
+Devices Using
+STAND-OFF</description>
+<packageinstances>
+<packageinstance name="STAND-OFF"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1678,9 +1716,9 @@ design rules under a new name.</description>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" value="470pf" x="14.366" y="25.4762" smashed="yes">
 <attribute name="NAME" x="17.3378" y="24.892" size="0.8128" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="D1" library="Custom Components" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V" x="4.4498" y="7.8966" smashed="yes" rot="R180">
-<attribute name="MPN" value="BAS16HT1G" x="-26.0302" y="48.5366" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.5768" y="6.9568" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
+<element name="D1" library="Custom Components" package="SOD-323" package3d_urn="urn:adsk.eagle:package:38441/1" value="250mA/100V" x="6.4498" y="11.8966" smashed="yes" rot="R180">
+<attribute name="MPN" value="BAS16HT1G" x="-24.0302" y="52.5366" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="6.5768" y="10.9568" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SCREWTERMINAL-3.5MM-5" package3d_urn="urn:adsk.eagle:package:38112/1" value="" x="17.064" y="14.6228" smashed="yes">
 <attribute name="PROD_ID" value="Combine 8288+8399" x="46.274" y="-9.5072" size="1.778" layer="27" display="off"/>
@@ -1739,6 +1777,22 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="SOIC-8 Texas Instruments" x="27.3032" y="11.1798" size="1.778" layer="27" display="off"/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/TLC555CD/?ref=eda" x="27.3032" y="11.1798" size="1.778" layer="27" display="off"/>
 </element>
+<element name="U$1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="" x="5" y="7" smashed="yes">
+<attribute name="NAME" x="5" y="9.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="5" y="4.968" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="U$2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="" x="5" y="29" smashed="yes">
+<attribute name="NAME" x="5" y="31.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="5" y="26.968" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="U$3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="" x="33.59" y="29" smashed="yes">
+<attribute name="NAME" x="33.59" y="31.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="33.59" y="26.968" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="U$4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF" package3d_urn="urn:adsk.eagle:package:38630/1" value="" x="33.58" y="7" smashed="yes">
+<attribute name="NAME" x="33.58" y="9.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="VALUE" x="33.58" y="4.968" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1756,14 +1810,14 @@ design rules under a new name.</description>
 <contactref element="J2" pad="1"/>
 <polygon width="0.1524" layer="1">
 <vertex x="-2.4892" y="-1.9718"/>
-<vertex x="-2.4892" y="29.6672"/>
-<vertex x="40.8178" y="29.6672"/>
+<vertex x="-2.4892" y="41.6672"/>
+<vertex x="40.8178" y="41.6672"/>
 <vertex x="40.8178" y="-1.9718"/>
 </polygon>
 <polygon width="0.1524" layer="16">
 <vertex x="-1.4224" y="-1.1336"/>
-<vertex x="-1.4224" y="29.0322"/>
-<vertex x="40.0304" y="29.0322"/>
+<vertex x="-1.4224" y="41.0322"/>
+<vertex x="40.0304" y="41.0322"/>
 <vertex x="40.0304" y="-1.1336"/>
 </polygon>
 <wire x1="20.7978" y1="13.557" x2="20.9858" y2="16.7988" width="0" layer="19" extent="1-1"/>
@@ -1818,8 +1872,8 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="D1" pad="A"/>
 <contactref element="J2" pad="4"/>
-<wire x1="3.2998" y1="7.8966" x2="11.546" y2="17.6784" width="0" layer="19" extent="1-1"/>
-<wire x1="27.564" y1="14.6228" x2="3.2998" y2="7.8966" width="0" layer="19" extent="1-1"/>
+<wire x1="5.2998" y1="11.8966" x2="11.546" y2="17.6784" width="0" layer="19" extent="1-1"/>
+<wire x1="27.564" y1="14.6228" x2="5.2998" y2="11.8966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U2" pad="2"/>
@@ -1868,7 +1922,7 @@ design rules under a new name.</description>
 <wire x1="14.198" y1="13.2268" x2="14.1836" y2="13.2124" width="0.508" layer="1"/>
 <wire x1="14.198" y1="13.2268" x2="14.0964" y2="13.1252" width="0.508" layer="1"/>
 <wire x1="12.0696" y1="12.0528" x2="14.0964" y2="13.1252" width="0" layer="19" extent="1-1"/>
-<wire x1="5.5998" y1="7.8966" x2="12.0696" y2="12.0528" width="0" layer="19" extent="1-1"/>
+<wire x1="7.5998" y1="11.8966" x2="12.0696" y2="12.0528" width="0" layer="19" extent="1-1"/>
 <wire x1="19.4306" y1="7.2682" x2="14.198" y2="13.2268" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUTPUT2">
