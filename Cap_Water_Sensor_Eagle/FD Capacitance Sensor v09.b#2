@@ -1769,9 +1769,9 @@ design rules under a new name.</description>
 <attribute name="MPN" value="BAS16HT1G" x="-22.0302" y="58.5366" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.5768" y="16.9568" size="0.8128" layer="25" font="vector" rot="R180" align="bottom-center"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SCREWTERMINAL-3.5MM-5" package3d_urn="urn:adsk.eagle:package:38112/1" value="" x="46.064" y="38.6228" smashed="yes">
-<attribute name="PROD_ID" value="Combine 8288+8399" x="75.274" y="14.4928" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="51.398" y="40.1468" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SCREWTERMINAL-3.5MM-5" package3d_urn="urn:adsk.eagle:package:38112/1" value="" x="15.064" y="12.6228" smashed="yes">
+<attribute name="PROD_ID" value="Combine 8288+8399" x="44.274" y="-11.5072" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.398" y="14.1468" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="J1" library="Custom Components" package="JST_BM06B-SRSS-TB(LF)(SN)" value="BM06B-SRSS-TBT(LF)(SN)" x="18.9306" y="29.7432" smashed="yes">
 <attribute name="MPN" value="BM06B-SRSS-TBT(LF)(SN)" x="51.9506" y="13.2332" size="1.778" layer="27" display="off"/>
@@ -1862,7 +1862,7 @@ design rules under a new name.</description>
 <vertex x="40.0304" y="-1.1336"/>
 </polygon>
 <contactref element="JP2" pad="1"/>
-<wire x1="30.9858" y1="23.7988" x2="46.064" y2="38.6228" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9858" y1="23.7988" x2="15.064" y2="12.6228" width="0" layer="19" extent="1-1"/>
 <wire x1="31.7978" y1="21.557" x2="30.9858" y2="23.7988" width="0" layer="19" extent="1-1"/>
 <wire x1="22.7306" y1="29.7432" x2="30.9858" y2="23.7988" width="0" layer="19" extent="1-1"/>
 <wire x1="16.7832" y1="21.1648" x2="22.7306" y2="29.7432" width="0" layer="19" extent="1-1"/>
@@ -1886,14 +1886,14 @@ design rules under a new name.</description>
 <contactref element="J2" pad="2"/>
 <wire x1="29.1858" y1="23.31955" x2="29.1858" y2="23.7988" width="0.1524" layer="1"/>
 <wire x1="16.8656" y1="17.3294" x2="16.7832" y2="17.3548" width="0.1524" layer="1"/>
-<wire x1="49.564" y1="38.6228" x2="49.5946" y2="38.6534" width="0.1524" layer="16"/>
+<wire x1="18.564" y1="12.6228" x2="18.5946" y2="12.6534" width="0.1524" layer="16"/>
 <wire x1="21.7232" y1="21.1648" x2="26.5684" y2="31.1742" width="0" layer="19" extent="1-1"/>
 <wire x1="16.8656" y1="17.3294" x2="21.7232" y2="21.1648" width="0" layer="19" extent="1-1"/>
 <wire x1="13.006" y1="21.4526" x2="16.7832" y2="17.3548" width="0" layer="19" extent="1-1"/>
 <wire x1="9.2406" y1="23.1958" x2="13.006" y2="21.4526" width="0" layer="19" extent="1-1"/>
 <wire x1="29.1858" y1="23.7988" x2="26.5684" y2="31.1742" width="0" layer="19" extent="1-1"/>
-<wire x1="49.5946" y1="38.6534" x2="16.8656" y2="17.3294" width="0" layer="19" extent="1-16"/>
-<wire x1="11.98" y1="9.8458" x2="49.564" y2="38.6228" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5946" y1="12.6534" x2="16.8656" y2="17.3294" width="0" layer="19" extent="1-16"/>
+<wire x1="11.98" y1="9.8458" x2="18.564" y2="12.6228" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="J1" pad="2"/>
@@ -1916,7 +1916,7 @@ design rules under a new name.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="J2" pad="4"/>
 <wire x1="7.2998" y1="17.8966" x2="11.546" y2="24.6784" width="0" layer="19" extent="1-1"/>
-<wire x1="56.564" y1="38.6228" x2="7.2998" y2="17.8966" width="0" layer="19" extent="1-1"/>
+<wire x1="25.564" y1="12.6228" x2="7.2998" y2="17.8966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="U2" pad="2"/>
