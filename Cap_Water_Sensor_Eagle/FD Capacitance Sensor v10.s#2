@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7157,7 +7157,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="&quot;" package3d_urn="urn:adsk.eagle:package:38138/1"/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7262,15 +7261,12 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <attribute name="NAME" x="212.344" y="65.659" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="209.804" y="63.119" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND2" gate="1" x="180.34" y="132.08" smashed="yes">
-<attribute name="VALUE" x="177.8" y="129.54" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="167.64" y="137.16" smashed="yes">
+<attribute name="VALUE" x="165.1" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="152.4" y="147.32" smashed="yes">
-<attribute name="VALUE" x="147.32" y="134.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="147.32" y="160.528" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="185.42" y="162.56" smashed="yes">
-<attribute name="VALUE" x="185.42" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+<instance part="J3" gate="G$1" x="147.32" y="147.32" smashed="yes">
+<attribute name="VALUE" x="142.24" y="134.874" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="142.24" y="160.528" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -7336,21 +7332,8 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="157.48" y1="154.94" x2="180.34" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="154.94" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="157.48" y1="147.32" x2="180.34" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="180.34" y1="147.32" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
-<junction x="180.34" y="147.32"/>
-<label x="160.02" y="154.94" size="1.778" layer="95"/>
-<label x="160.02" y="147.32" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="142.24" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
-<label x="160.02" y="142.24" size="1.778" layer="95"/>
-<wire x1="157.48" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
-<junction x="180.34" y="142.24"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -7393,18 +7376,6 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <label x="121.92" y="160.02" size="1.778" layer="95"/>
 <pinref part="J2" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="6"/>
-<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="157.48" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="152.4" x2="185.42" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="157.48" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="144.78" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
-<junction x="185.42" y="152.4"/>
-<label x="160.02" y="152.4" size="1.778" layer="95"/>
-<label x="160.02" y="144.78" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -7436,6 +7407,12 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 </segment>
 </net>
 <net name="SENSOR1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="167.64" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
+<label x="167.64" y="78.74" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+</segment>
 <segment>
 <wire x1="116.84" y1="165.1" x2="132.08" y2="165.1" width="0.1524" layer="91"/>
 <label x="121.92" y="165.1" size="1.778" layer="95"/>
@@ -7535,31 +7512,24 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <label x="53.34" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SIGNALA1" class="0">
+<net name="N$3" class="0">
 <segment>
-<wire x1="157.48" y1="149.86" x2="167.64" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="5"/>
-<label x="160.02" y="149.86" size="1.778" layer="95"/>
+<wire x1="157.48" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SIGNALA2" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="157.48" y1="157.48" x2="167.64" y2="157.48" width="0.1524" layer="91"/>
-<label x="160.02" y="157.48" size="1.778" layer="95"/>
+<wire x1="157.48" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PROBE+" class="0">
+<net name="N$4" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
-<label x="160.02" y="139.7" size="1.778" layer="95"/>
+<wire x1="157.48" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
 </segment>
+</net>
+<net name="N$7" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="167.64" y1="78.74" x2="182.88" y2="78.74" width="0.1524" layer="91"/>
-<label x="167.64" y="78.74" size="1.778" layer="95"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="157.48" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

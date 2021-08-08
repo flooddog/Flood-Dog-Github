@@ -7264,9 +7264,9 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <instance part="GND2" gate="1" x="167.64" y="137.16" smashed="yes">
 <attribute name="VALUE" x="165.1" y="134.62" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="147.32" y="147.32" smashed="yes">
-<attribute name="VALUE" x="142.24" y="134.874" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="142.24" y="160.528" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="152.4" y="147.32" smashed="yes">
+<attribute name="VALUE" x="147.32" y="134.874" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="147.32" y="160.528" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -7334,6 +7334,7 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <segment>
 <wire x1="157.48" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -7515,21 +7516,25 @@ https://thecavepearlproject.org/2020/10/27/hacking-a-capacitive-soil-moisture-se
 <net name="N$3" class="0">
 <segment>
 <wire x1="157.48" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <wire x1="157.48" y1="144.78" x2="172.72" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <wire x1="157.48" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="157.48" y1="149.86" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
 </nets>
