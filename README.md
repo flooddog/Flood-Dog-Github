@@ -1,7 +1,7 @@
-<h2>42 Flood Dogs Pilot Project</h2>
-<p>42 Flood Dogs is a pilot project to deploy 42 cellularly connected IoT sensors units across the Toronto Islands with the first deployment of 42 dogs beginning in early September 2021.</p>
+<h2>The 42 Flood Dogs Pilot Project</h2>
+<p>42 Flood Dogs is a pilot project to deploy cellularly connected IoT sensors across the Toronto Islands to measure ground, surface and lake water levels with the first deployment of Flood Dog devices beginning in early September 2021.</p>
 
-<p>This GitHub Repository holds all files required to build a Flood Dog device. The project enclosure design, custom PCB design, custom firmware and BOM are available under an open source Creative Commons license.</p>
+<p>This GitHub Repository holds all files required to build a Flood Dog device. The project enclosure design, custom PCB design, custom firmware and BOM are all available under an open source Creative Commons license.</p>
 
 <h3>Project Background</strong></h3>
 <p>The Toronto Islands is a unique ecosystem, and through its diversity represents so many of the varied environments found along the Great Lakes. The location features a variety of spaces including parkland, schools, residential, and light industrial. The Islands offer wetland habitats for many species of birds, as well as other wildlife. Flooding in 2017 and then again in 2019 threatened this delicate biome and effectively closed a valuable city resource.</p>
