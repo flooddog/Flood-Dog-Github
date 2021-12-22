@@ -1,0 +1,11 @@
+{
+  "capacitance": "{{Capacitance}}",
+  "internaltemp": "{{InternalTemp}}",
+  "battery": {
+    "value": "{{Battery}}",
+    "context": {
+      "batteryState": "{{BatteryState}}",
+      "powerSource": "{{PowerSource}}"
+    }
+  }
+}

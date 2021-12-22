@@ -5,7 +5,7 @@
     "files.associations": {
         "*.ino": "cpp"
     },
-    "particle.targetDevice": "Dog_005",
+    "particle.targetDevice": "Dog_Dev_03",
     "particle.firmwareVersion": "2.2.0",
     "particle.targetPlatform": "boron"
 }

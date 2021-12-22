@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "Flood_Dog_Test_A02YYUW"
+		}
+	],
+	"settings": {
+		"extensions.ignoreRecommendations": true,
+		"cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}",
+		"files.associations": {
+			"*.ino": "cpp"
+		}
+	}
+}
